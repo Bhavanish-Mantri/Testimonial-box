@@ -1,6 +1,3 @@
-/* ❌ Google Font removed */
-
-/* ✅ Professional system font stack */
 * {
   box-sizing: border-box;
   font-family: system-ui, -apple-system, BlinkMacSystemFont,
@@ -16,7 +13,6 @@ body {
   margin: 0;
 }
 
-/* Container */
 .testimonial-container {
   background-color: #476ce4;
   color: #fff;
@@ -26,7 +22,6 @@ body {
   position: relative;
 }
 
-/* Progress bar */
 .progress-bar {
   background-color: #fff;
   height: 4px;
@@ -41,7 +36,6 @@ body {
   }
 }
 
-/* Quotes */
 .fa-quote {
   color: rgba(255, 255, 255, 0.3);
   font-size: 28px;
@@ -57,7 +51,6 @@ body {
   right: 40px;
 }
 
-/* Text */
 .testimonial {
   line-height: 1.8;
   font-size: 16px;
@@ -65,7 +58,6 @@ body {
   text-align: justify;
 }
 
-/* User section */
 .user {
   display: flex;
   align-items: center;
@@ -96,7 +88,6 @@ body {
   opacity: 0.85;
 }
 
-/* Mobile */
 @media (max-width: 768px) {
   .testimonial-container {
     padding: 25px 30px;
@@ -106,3 +97,4 @@ body {
     display: none;
   }
 }
+
