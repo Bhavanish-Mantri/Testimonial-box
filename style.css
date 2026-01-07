@@ -1,0 +1,108 @@
+/* ❌ Google Font removed */
+
+/* ✅ Professional system font stack */
+* {
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Container */
+.testimonial-container {
+  background-color: #476ce4;
+  color: #fff;
+  border-radius: 15px;
+  padding: 50px 80px;
+  max-width: 768px;
+  position: relative;
+}
+
+/* Progress bar */
+.progress-bar {
+  background-color: #fff;
+  height: 4px;
+  width: 100%;
+  animation: grow 10s linear infinite;
+  transform-origin: left;
+}
+
+@keyframes grow {
+  from {
+    transform: scaleX(0);
+  }
+}
+
+/* Quotes */
+.fa-quote {
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 28px;
+  position: absolute;
+  top: 70px;
+}
+
+.fa-quote-left {
+  left: 40px;
+}
+
+.fa-quote-right {
+  right: 40px;
+}
+
+/* Text */
+.testimonial {
+  line-height: 1.8;
+  font-size: 16px;
+  letter-spacing: 0.2px;
+  text-align: justify;
+}
+
+/* User section */
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.user-image {
+  border-radius: 50%;
+  height: 75px;
+  width: 75px;
+  object-fit: cover;
+}
+
+.user-details {
+  margin-left: 12px;
+}
+
+.username {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.role {
+  margin-top: 4px;
+  font-size: 14px;
+  opacity: 0.85;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .testimonial-container {
+    padding: 25px 30px;
+  }
+
+  .fa-quote {
+    display: none;
+  }
+}
