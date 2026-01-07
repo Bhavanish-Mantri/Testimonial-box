@@ -3,6 +3,10 @@ const userImage = document.querySelector(".user-image");
 const username = document.querySelector(".username");
 const role = document.querySelector(".role");
 
+if (!testimonial || !userImage || !username || !role) {
+  console.error("Required DOM elements not found");
+}
+
 const testimonials = [
   {
     name: "Miyah Myles",
@@ -42,3 +46,4 @@ function updateTestimonial() {
 
 updateTestimonial();
 setInterval(updateTestimonial, 10000);
+
